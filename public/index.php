@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DarussTukSuk</title>
-    <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="../css/home.css">
-    <script src="../js/popup.js" defer></script>
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <script src="/js/popup.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 <body>
-    <?php include 'navbar.php'; ?>
+    <?php include '../php/navbar.php'; ?>
 
     <section class="first">
         <div class="daruss">
@@ -25,7 +25,7 @@
     </section>
     <section class="second">
         <div class="second-left">
-            <img src="../image/da.png" alt="รูปด้าย" class="second-image">
+            <img src="/image/da.png" alt="รูปด้าย" class="second-image">
         </div>
         <div class="second-right">
             <div class="philosophy-card">
