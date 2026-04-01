@@ -25,7 +25,7 @@
     </section>
     <section class="second">
         <div class="second-left">
-            <img src="/image/da.png" alt="รูปด้าย" class="second-image">
+            <img src="/image/da.png" alt="image" class="second-image">
         </div>
         <div class="second-right">
             <div class="philosophy-card">

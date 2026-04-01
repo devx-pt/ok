@@ -6,6 +6,7 @@ html {
 
 .first {
     background: url(../image/da.png);
+    background-position: center;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -13,6 +14,7 @@ html {
     text-align: center;
     padding: 0 24px;
     box-sizing: border-box;
+    background-size: cover;
 }
 
 .daruss {
@@ -103,7 +105,9 @@ html {
     .second {
         flex-direction: column;
         align-items: center;
+        background: #419907;
     }
+    
     .second-left, .second-right {
         max-width: 100%;
     }
@@ -139,8 +143,12 @@ html {
     margin-top: 0; 
     position: static; 
     width: 100%;
+    word-wrap: break-word;
     }
-
+    .second-right h2 {
+        word-wrap: break-word;
+        font-size: 20px;
+    }
   .philosophy {
     position: static; 
     width: 100%;
